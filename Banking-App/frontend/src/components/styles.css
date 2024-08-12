@@ -1,0 +1,361 @@
+/*-------------------------------universal stuff--------------------------------------*/
+h3 {
+    font-family: 'Arial', sans-serif; /* Change this to your desired font family */
+    color: #333333;
+    font-size: 24px; 
+    margin-bottom: 20px; /* Optional: Add some margin for spacing */
+}
+
+body{
+    background-color: #cccada;
+}
+
+form {
+    max-width: 600px; /* Limit the width for better readability */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light border for a clean look */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+input[type="text"] {
+    background-color: #c6c2cd; /* Dark gray text color */
+}
+
+.logout-button {
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #9d84b0;
+}
+
+
+
+
+/*------------------------------------account_balance stuff--------------------------------------*/
+.account-balance-table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+.account-balance-table th, .account-balance-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+.account-balance-table th {
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+    color: #333; 
+}
+
+
+.commit-transfer-button{
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.commit-transfer-button:hover {
+    background-color: #9d84b0;
+}
+
+/*------------------------------------account_history stuff------------------------------------------*/
+.view-history-button{
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.view-history-button:hover {
+    background-color: #9d84b0;
+}
+
+.transaction-history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.transaction-history-table th, .transaction-history-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+.transaction-history-table th {
+    background-color: #f2f2f2;
+}
+
+/*------------------------------------account_summary stuff------------------------------------------*/
+.make-transaction-button{
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.make-transaction-button:hover {
+    background-color: #9d84b0;
+}
+
+.make-transaction-button-th{
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}
+.make-transaction-button-th:hover {
+    background-color: #9d84b0;
+}
+
+/*------------------------------------Employee Dashboard stuff------------------------------------------*/
+.employee-p{
+        margin-top: -5px; 
+        margin-bottom: 10px; 
+        font-size: 18px; 
+}
+
+.employee-container {
+
+    max-width: 900px; /* Increase this value to make the container wider */
+    background-color: #f9f9f9;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; /* This keeps the container responsive */
+    margin: 0 auto;
+    max-height: 100vh;
+
+}
+
+.employee-message {
+    color: #d9534f;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* .link-button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+} */
+
+.employee-button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Add space between the buttons */
+    margin-top: 20px; /* Optional: Add space above the buttons */
+}
+
+.employee-button-container button {
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.employee-button-container button:hover {
+    background-color: #9d84b0;
+}
+
+.employee-form-container {
+    display: flex;
+    flex-direction: column; /* Align form items vertically */
+    justify-content: flex-start; 
+    align-items: center; /* Center the form items */
+    max-width: 400px; /* Set a max width for better readability */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.employee-form-group {
+    width: 100%; /* Make sure the group takes full width */
+    margin-bottom: 15px; /* Space between the label/input and button */
+}
+
+.employee-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between label and input */
+    color: #333333;
+}
+
+.employee-form-group input {
+    width: 90%; /* Full-width input */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #c6c2cd;
+}
+
+.employee-form-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #8d86c9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.employee-form-button:hover {
+    background-color: #9d84b0;
+}
+
+.employee-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*------------------------------------Transfer Funds stuff------------------------------------------*/
+
+.transfer-container {
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.transfer-form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.transfer-form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.transfer-form-group input,
+.transfer-form-group select {
+    padding: 7px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #c6c2cd;
+}
+
+.transfer-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.transfer-button-group button {
+    background-color: #8d86c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px; 
+}
+
+.transfer-button-group button:hover {
+    background-color: #9d84b0;
+}
+
+.transfer-message {
+    margin-top: 20px;
+    color: #e74c3c; /* Error message color */
+    font-weight: bold;
+    text-align: center;
+}
+
+/*------------------------------------------------------------Login Stuff*/
+
+
+.login-form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form-group input,
+.login-form-group select {
+    padding: 7px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.login-item label {
+    padding-right: 10px;
+    
+}
+
+.login-item input {
+    margin-left: auto;
+}
+
+
+
+.login-button {
+    background-color: #8d86c9;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #9d84b0;
+}
+
+.summary-link {
+    margin-right: 15px;
+}
