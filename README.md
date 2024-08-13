@@ -17,19 +17,19 @@ With this readme.md in place, a potential employer could simply visit your page,
 I am Isabel Armstrong and I am 20 years old. I am currently a student at Weber State University. Upon graduation, I aim to land myself a career in software development. I find the subject of computer science to be very compelling and am always wanting to know and learn more. 
 
 ## Projects
-# !(Node Express)[https://github.com/isabelarmstrong/3750Portfolio/tree/main/node-express]
+# ![Node Express](https://github.com/isabelarmstrong/3750Portfolio/tree/main/node-express)
 
 Created a form to ask user for their name and favorite food. Upon submission, displays all users and their favorite food. Other form to prompt to search for a specific favorite food and will display all users with that food.
 
-# !(Connect Four)[https://github.com/isabelarmstrong/3750Portfolio/tree/main/node-express]
+# ![Connect Four](https://github.com/isabelarmstrong/3750Portfolio/tree/main/node-express)
 
 Created a functional connect four game that will allow horizontal, vertical, and diagonal wins from either player.
 
-# !(MERN and Sessions)[https://github.com/isabelarmstrong/3750Portfolio/tree/main/mern-sessions]
+# ![MERN and Sessions](https://github.com/isabelarmstrong/3750Portfolio/tree/main/mern-sessions)
 
 Created a make-shift banking app to help develop the skills of utilizing sessions and accessing a database to view and modify a customer's account.
 
-# !(Hangman Game)[https://github.com/isabelarmstrong/3750Portfolio/tree/main/CS3750Group-Skittles-HangMan-Assignment-main]
+# ![Hangman Game](https://github.com/isabelarmstrong/3750Portfolio/tree/main/CS3750Group-Skittles-HangMan-Assignment-main)
 
 Group project where we had to put together a functioning game of hangman. I helped build the highscore page and the use of sessions.
 
