@@ -33,6 +33,6 @@ Created a make-shift banking app to help develop the skills of utilizing session
 
 Group project where we had to put together a functioning game of hangman. I helped build the highscore page and the use of sessions.
 
-### !(Banking App)[https://github.com/isabelarmstrong/3750Portfolio/tree/main/Banking-App]
+### ![Banking App](https://github.com/isabelarmstrong/3750Portfolio/tree/main/Banking-App)
 
 The final group project where we had to build on the previous banking app project and add more features, such as differnt actions for each type of user (customer, employee, admin). I helped build the features for the role of administrator.
